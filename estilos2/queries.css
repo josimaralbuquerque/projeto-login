@@ -1,0 +1,83 @@
+@charset "UTF=8";
+
+:root{
+    --verde: #49a09d;
+    --lilas: #5f2c82;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (min-width: 768px) and (max-width:992px){
+    
+    body{   
+
+            background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    } 
+    #login{
+        min-width: 700px;
+        max-width: 900px;
+        height: 296px;
+    }
+    div#imagem{
+        display: inline-block;
+        width: 30%;
+        height: 296px;
+        border-bottom-left-radius:20px ;
+        border-top-right-radius: 0;
+    }
+    div#formulario{
+        position: absolute;
+        display: inline-block;
+        width: 66%;
+        top: 0;
+        
+    }
+    input#ieamil{
+        width: 89.8%;
+    }
+    input#ipassword{
+        width: 89.8%;
+    }
+}
+
+@media screen and (min-width:993px) {
+    body{   
+        background-image: linear-gradient(to top, #49a09d, #5f2c82) ;
+    } 
+    #login{
+        min-width: 900px;
+        max-width: 1200px;
+        height: 350px;
+    }
+    div#imagem{
+        position: absolute;
+        width: 50%;
+        height: 350px;
+        top: 0;
+        left: 50%;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 20px;
+    }
+    div#formulario{
+        width: 48%;
+    }
+    #formulario>h1{
+        margin: 10px;
+        font-size: 32px;
+    }
+    #formulario > p{
+        padding: 10px 0;
+        font-size: 1rem;
+    }
+    input#ieamil{
+        width: 89.1%;
+    }
+    input#ipassword{
+        width: 89.1%;
+    }
+}
+
+
